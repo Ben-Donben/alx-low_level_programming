@@ -19,7 +19,7 @@ int main(void)
 	while (sum < 2772)
 
 	{
-		password[index] = 33 + rand() % 94;
+		password[index] = 33 + srand() % 94;
 		sum += password[index++];
 	}
 
@@ -60,6 +60,6 @@ int main(void)
 		}
 	}
 	
-	print("%s", password);
+	printf("%s", password);
 	return (0);
 }
