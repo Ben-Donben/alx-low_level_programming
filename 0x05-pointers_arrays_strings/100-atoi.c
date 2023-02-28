@@ -27,7 +27,7 @@ int _atoi(char *s)
 	ni = (ni * 10) + (s[c] - '0');
 	c++;
 	}
-	if (isi == i)
+	if (isi == 1)
 	{
 	break;
 	}
